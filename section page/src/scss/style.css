@@ -1,0 +1,144 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css");
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+nav {
+  padding: 10px 0px;
+}
+nav .col-lg-3 {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: row;
+  gap: 0px;
+}
+nav .logo img {
+  width: 100%;
+  height: 64px;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+nav ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  gap: 40px;
+}
+nav ul li {
+  cursor: pointer;
+  padding: 4px 0px;
+  font-size: 1rem;
+  line-height: 20px;
+  font-weight: 500;
+  color: #000000;
+}
+
+#bagca .search_input {
+  position: relative;
+}
+#bagca .search_input input {
+  width: 100%;
+  padding: 5px 30px;
+  background-color: transparent;
+  border-radius: 5px;
+  outline: none;
+  box-shadow: none;
+  border: 1px solid #656565;
+}
+#bagca .search_input i {
+  position: absolute;
+  top: 5px;
+  left: 10px;
+}
+#bagca .bagca_head {
+  padding-top: 100px;
+}
+#bagca .bagca_head h1 {
+  font-size: 30px;
+  line-height: 36px;
+  font-weight: 600;
+  color: #000000;
+}
+#bagca #selected_kinder_garden {
+  padding-top: 100px;
+}
+#bagca #selected_kinder_garden h4 {
+  font-size: 17px;
+  font-weight: 600;
+}
+#bagca .kindeergarden_prices {
+  margin-top: 40px;
+}
+#bagca .chek_kindergarden {
+  margin: 10px 0px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: row;
+  gap: 10px;
+}
+#bagca .chek_kindergarden p {
+  font-size: 17px;
+  line-height: 26px;
+  font-weight: 500;
+  color: #000000;
+}
+#bagca #kindergarden_cards img {
+  width: 100%;
+  height: 422px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+#bagca #kindergarden_cards p {
+  font-size: 17px;
+  line-height: 30px;
+  font-weight: 500;
+  color: #000000;
+  margin: 5px 0px;
+}
+
+body {
+  background: linear-gradient(180deg, #67DDFB 13.54%, #D5C8E1 76.49%, #D3C8E1 100%);
+  height: 100%;
+  background-repeat: no-repeat;
+}/*# sourceMappingURL=style.css.map */

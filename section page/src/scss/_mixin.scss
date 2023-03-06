@@ -1,0 +1,16 @@
+@mixin  Flex($jus,$items,$direct,$gap) {
+    display: flex;
+    justify-content: $jus;
+    align-items: $items;
+    flex-direction: $direct;
+    gap: $gap;
+    
+}
+
+@mixin Font($Fsize,$Fline,$Fweigth,$colors) {
+    font-size: $Fsize;
+    line-height: $Fline;
+    font-weight: $Fweigth;
+    color: $colors;
+    
+}
